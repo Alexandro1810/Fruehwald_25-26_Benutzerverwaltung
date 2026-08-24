@@ -1,0 +1,20 @@
+10. Testsystem Passwörter
+•	LDAP PW Login: LDAPpw!?67
+•	DC1:
+    o	lildah
+    o	lildah
+•	DC2:
+    o	lildah2
+    o	lildah2
+•	Nextcloud
+    o	lildah3
+    o	lildah3
+•	Nextcloud Admin
+    o	Ncadmin
+    o	Ncadmin67!?08
+•	Administrator
+    o	PW: lildah7!
+•	Test DC
+    o	testdc
+    o	testdc
+    	testdc admin: testdc7!
