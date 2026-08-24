@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T12:00:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="nextcloud" name="Nextcloud">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="sys" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#666666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="1340" height="1060" as="geometry"/>
+        </mxCell>
+        <mxCell id="title" value="Nextcloud – Dateiablage, Freigaben und Administration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="520" y="55" width="740" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ncuser" value="Nextcloud-Benutzer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="250" width="80" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="ldapuser" value="LDAP-Benutzer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="610" width="80" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="standalone" value="Standalone-Benutzer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="840" width="80" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="ncadmin" value="Nextcloud-Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="430" width="80" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="ldapserver" value="Samba AD / LDAP" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="100" width="80" height="130" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="n1" value="Bei Nextcloud anmelden" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="290" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="Dateien und Ordner verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="290" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="Auf Gruppenordner zugreifen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="290" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4" value="Datei oder Ordner teilen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="690" width="290" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="n5" value="Eigenes Profil und Passwort verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="900" width="290" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="n1ldap" value="Über LDAP authentifizieren" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="290" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n1local" value="Lokal authentifizieren" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="290" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2note" value="Umfasst: hochladen, herunterladen, Ordner erstellen, umbenennen, verschieben und löschen." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="310" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3a" value="Gruppenberechtigung prüfen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="290" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n41" value="Mit Benutzer teilen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="620" width="290" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="n42" value="Mit Gruppe teilen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="700" width="290" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="n43" value="Öffentlichen Link erstellen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="780" width="290" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="n44" value="Freigaberechte festlegen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="870" width="290" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n44note" value="Mögliche Rechte: Lesen, Bearbeiten, Erstellen, Löschen und Weiterteilen." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="640" y="965" width="310" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="a1" value="LDAP-Anbindung verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="130" width="320" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="a1a" value="LDAP-Verbindung konfigurieren und testen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="230" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="a1b" value="LDAP-Benutzer und -Gruppen synchronisieren" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="320" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" value="Gruppenordner verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="460" width="320" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2a" value="Gruppenberechtigungen festlegen oder entfernen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="560" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3" value="Standalone-Benutzer verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="710" width="320" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3a" value="Standalone-Benutzer erstellen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="810" width="360" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3b" value="Benutzerdaten ändern oder Passwort zurücksetzen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="890" width="360" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3c" value="Standalone-Benutzer deaktivieren oder löschen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="970" width="360" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="genldap" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="ldapuser" target="ncuser"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="genstand" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="standalone" target="ncuser"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="nu1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ncuser" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="nu2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ncuser" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="nu3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ncuser" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="nu4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ncuser" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="nu5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="ncuser" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ldapauthassoc" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ldapuser" target="n1ldap"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="localauthassoc" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="standalone" target="n1local"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n1le" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n1ldap" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n1loe" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n1local" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n3i" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n3" target="n3a"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n41e" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n41" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n42e" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n42" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n43e" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n43" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n44i" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="n4" target="n44"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n2notelink" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=none;" edge="1" parent="1" source="n2note" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n44notelink" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=none;" edge="1" parent="1" source="n44note" target="n44"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="na1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ncadmin" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="na2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ncadmin" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="na3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ncadmin" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1ae" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a1a" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1be" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a1b" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a2ae" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a2a" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3ae" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a3a" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3be" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a3b" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3ce" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a3c" target="a3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ldapserverauth" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ldapserver" target="n1ldap"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ldapserverconfig" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ldapserver" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ldapserversync" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="ldapserver" target="a1b"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

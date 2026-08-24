@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T12:00:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="windows-domaenenumgebung" name="Windows-Domänenumgebung">
+    <mxGraphModel dx="1550" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1750" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="sys" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#666666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="1320" height="890" as="geometry"/>
+        </mxCell>
+        <mxCell id="title" value="Windows-Domänenumgebung – Anmeldung, Ressourcen und Richtlinien" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="500" y="55" width="760" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="user" value="Domänenbenutzer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="390" width="80" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="admin" value="Domänenadministrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="390" width="80" height="130" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="w1" value="An der Domäne anmelden" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="300" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="w2" value="Domänenpasswort ändern" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="300" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3" value="Auf Netzlaufwerk oder Freigabe zugreifen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="300" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="w4" value="Freigegebene Anwendung starten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="300" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="w5" value="Zugelassenes Gerät verwenden" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="760" width="300" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="w1a" value="Domänen-Anmeldedaten prüfen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="110" width="300" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1b" value="Gruppenrichtlinien abrufen und anwenden" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="300" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w2a" value="Passwort im Active Directory aktualisieren" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="300" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w3a" value="Gruppenmitgliedschaft und Freigaberecht prüfen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="300" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w4a" value="Anwendungsrichtlinie prüfen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="600" width="300" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="w5a" value="Geräterichtlinie prüfen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="760" width="300" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="a1" value="Computer zur Domäne hinzufügen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="120" width="310" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" value="Gruppenrichtlinien verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="330" width="310" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3" value="Netzlaufwerke und Freigaben zuweisen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="470" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="a4" value="Anwendungszugriff steuern" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="610" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="a5" value="Gerätezugriff steuern" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="750" width="310" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="anote" value="Beispiele für Richtlinien: Netzlaufwerkszuordnung, Software-/App-Regeln sowie USB- und Wechseldatenträger-Richtlinien." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="835" width="360" height="75" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="we1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="user" target="w1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="we2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="user" target="w2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="we3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="user" target="w3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="we4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="user" target="w4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="we5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="user" target="w5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="w1ai" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="w1" target="w1a"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="w1bi" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="w1" target="w1b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="w2ai" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="w2" target="w2a"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="w3ai" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="w3" target="w3a"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="w4ai" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="w4" target="w4a"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="w5ai" value="«include»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="w5" target="w5a"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="ae1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="admin" target="a1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ae2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="admin" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3e" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a3" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a4e" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a4" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a5e" value="«extend»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;" edge="1" parent="1" source="a5" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="anotelink" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=none;" edge="1" parent="1" source="anote" target="a2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

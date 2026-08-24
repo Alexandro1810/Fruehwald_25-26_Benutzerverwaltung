@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T12:30:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="samba-ad-rechteverwaltung" name="Samba AD Rechteverwaltung">
+    <mxGraphModel dx="1450" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="1420" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#666666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="1280" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Samba Active Directory – vollständige Benutzer- und Rechteverwaltung" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="360" y="55" width="920" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u1" value="Domänenbenutzer verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="310" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u2" value="Gruppen und Mitgliedschaften verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="545" width="310" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u3" value="Samba-Freigabeberechtigungen verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="855" width="310" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u4" value="Gruppenbasierte App- und Gerätezugriffe verwalten" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1160" width="310" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="s11" value="Domänenbenutzer erstellen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="105" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s12" value="Benutzerdaten ändern" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="180" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s13" value="Passwort zurücksetzen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="255" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s14" value="Benutzerkonto entsperren" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="330" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s15" value="Benutzer deaktivieren oder löschen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="405" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s20" value="Gruppe erstellen, ändern oder löschen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="485" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s21" value="Benutzer zu Gruppe hinzufügen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="560" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s22" value="Benutzer aus Gruppe entfernen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="635" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s23" value="Benutzergruppe wechseln" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="710" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s31" value="Benutzer oder Gruppe berechtigen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="805" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s32" value="Lese-, Änderungs- oder Vollzugriff festlegen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="880" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s33" value="Freigabeberechtigung entziehen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="955" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s41" value="App-Zugriffsgruppe zuweisen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1100" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s42" value="Geräte-Zugriffsgruppe zuweisen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1175" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s43" value="Zugriffsgruppe entziehen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1250" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Die Detailfälle sind Spezialisierungen des jeweils hervorgehobenen Verwaltungsfalls." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="565" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="admin1" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;exitX=1;exitY=0.18;entryX=0;entryY=0.5;" edge="1" parent="1" source="admin" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin2" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;exitX=1;exitY=0.39;entryX=0;entryY=0.5;" edge="1" parent="1" source="admin" target="u2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin3" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;exitX=1;exitY=0.6;entryX=0;entryY=0.5;" edge="1" parent="1" source="admin" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="admin4" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;exitX=1;exitY=0.81;entryX=0;entryY=0.5;" edge="1" parent="1" source="admin" target="u4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g10" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.12;" edge="1" parent="1" source="s11" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g11" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.31;" edge="1" parent="1" source="s12" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g12" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="s13" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g13" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.6900000000000001;" edge="1" parent="1" source="s14" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g14" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.88;" edge="1" parent="1" source="s15" target="u1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g20" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.15;" edge="1" parent="1" source="s20" target="u2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g21" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.38;" edge="1" parent="1" source="s21" target="u2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g22" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.61;" edge="1" parent="1" source="s22" target="u2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g23" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.8400000000000001;" edge="1" parent="1" source="s23" target="u2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g30" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.2;" edge="1" parent="1" source="s31" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g31" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="s32" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g32" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" edge="1" parent="1" source="s33" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g40" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.2;" edge="1" parent="1" source="s41" target="u4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g41" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="s42" target="u4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g42" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" edge="1" parent="1" source="s43" target="u4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
